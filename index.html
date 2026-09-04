@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#0b0b0b" />
+  <title>FKU — Fat Kids United</title>
+  <meta name="description" content="FKU is a clubhouse for music, games, food, anime, and internet culture." />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" id="top">
+    <a class="brand" href="#top" aria-label="FKU home">
+      <span class="brand-mark" aria-hidden="true"><b>F</b><b>K</b><b class="brand-u">U<span class="brand-smile"></span></b></span>
+      <span class="brand-name">FAT KIDS UNITED</span>
+    </a>
+
+    <nav class="desktop-nav" aria-label="Primary navigation">
+      <a href="#watch">Watch</a>
+      <a href="#radio">Radio</a>
+      <a href="#arcade">Arcade</a>
+      <a href="#kitchen">Kitchen</a>
+      <a href="#drops">Drops</a>
+    </nav>
+
+    <div class="header-actions">
+      <button class="live-chip" type="button" data-scroll="#watch" aria-label="Go to FKU live programming">
+        <span class="live-dot"></span> FKU LIVE
+      </button>
+      <button class="menu-button" type="button" aria-expanded="false" aria-controls="mobile-menu">Menu</button>
+    </div>
+  </header>
+
+  <div class="mobile-menu" id="mobile-menu" hidden>
+    <a href="#watch">Watch</a><a href="#radio">Radio</a><a href="#arcade">Arcade</a><a href="#kitchen">Kitchen</a><a href="#drops">Drops</a><a href="#join">Join</a>
+  </div>
+
+  <main id="main">
+    <section class="hero section-pad">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">A VERY SERIOUS CULTURAL INSTITUTION*</p>
+        <h1>GOOD FOOD.<br>LOUD OPINIONS.<br><span class="outline-text">ZERO BORING SHIT.</span></h1>
+        <p class="hero-dek">FKU is a creator collective and late-night clubhouse for music, games, anime, food, friends, and whatever else is worth getting too invested in.</p>
+        <div class="hero-cta">
+          <a class="button button-light" href="#watch">WATCH FKU <span>↗</span></a>
+          <a class="button button-ghost" href="#join">JOIN THE UNION <span>→</span></a>
+        </div>
+        <small>*Not legally an institution. Probably.</small>
+      </div>
+
+      <div class="hero-art reveal delay-1" aria-label="FKU brand mark">
+        <div class="hero-sticker sticker-one">PLAYER 01<br><strong>WAYNE</strong></div>
+        <div class="hero-logo" aria-hidden="true">
+          <span>F</span><span>K</span><span class="hero-u">U<i></i></span>
+        </div>
+        <div class="hero-wordmark">FAT KIDS UNITED</div>
+        <div class="hero-sticker sticker-two">GOOD FOOD<br>BAD INFLUENCE</div>
+      </div>
+    </section>
+
+    <div class="ticker" aria-hidden="true">
+      <div class="ticker-track">
+        <span>FKU AFTER HOURS</span><b>✦</b><span>FKU RADIO</span><b>✦</b><span>FKU ARCADE</span><b>✦</b><span>FKU TEST KITCHEN</span><b>✦</b><span>FKU GOODS</span><b>✦</b>
+        <span>FKU AFTER HOURS</span><b>✦</b><span>FKU RADIO</span><b>✦</b><span>FKU ARCADE</span><b>✦</b><span>FKU TEST KITCHEN</span><b>✦</b><span>FKU GOODS</span><b>✦</b>
+      </div>
+    </div>
+
+    <section class="manifesto section-pad section-dark">
+      <div class="section-kicker">WHAT IS FKU?</div>
+      <div class="manifesto-grid">
+        <h2 class="reveal">NOT A SOCK COMPANY.<br><span>A WORLD THE SOCKS COME FROM.</span></h2>
+        <div class="manifesto-copy reveal delay-1">
+          <p>People don't care about a random logo. They care about the place the logo takes them back to.</p>
+          <p>FKU is that place: Wayne on a beat, somebody losing their mind over a boss fight, a 1:00 AM food run, an anime argument that goes way too far, and a community that was there for it.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="programming section-pad" id="watch">
+      <div class="section-heading">
+        <div><p class="section-kicker">THE NETWORK</p><h2>ONE BRAND.<br>FOUR WORLDS.</h2></div>
+        <p>Everything lives under FKU. Each vertical gets its own personality without turning the master brand into a mess.</p>
+      </div>
+
+      <div class="program-grid">
+        <article class="program-card after-hours reveal" data-program="after-hours">
+          <span class="card-number">01</span>
+          <div class="program-icon">☾</div>
+          <div class="card-body"><p>THE MAIN SHOW</p><h3>FKU<br>AFTER HOURS</h3><p>Late-night streams: games, freestyles, food, arguments, guests, internet chaos.</p></div>
+          <button class="card-link" type="button" data-toast="After Hours channel is a prototype — stream links come next.">ENTER AFTER HOURS ↗</button>
+        </article>
+
+        <article class="program-card radio reveal delay-1" id="radio">
+          <span class="card-number">02</span>
+          <div class="program-icon">◉</div>
+          <div class="card-body"><p>MUSIC / BEATS</p><h3>FKU<br>RADIO</h3><p>Freestyles, original beats, short releases, guests, and the soundtrack to the whole thing.</p></div>
+          <button class="card-link" type="button" data-scroll="#mixtape">HEAR THE TEST TRANSMISSION ↓</button>
+        </article>
+
+        <article class="program-card arcade reveal delay-2" id="arcade">
+          <span class="card-number">03</span>
+          <div class="program-icon">▲</div>
+          <div class="card-body"><p>GAMES / ANIME</p><h3>FKU<br>ARCADE</h3><p>Streams, challenges, tier lists, character debates, boss fights, and deeply unnecessary opinions.</p></div>
+          <button class="card-link" type="button" data-toast="Arcade is in player-select mode. Content coming soon.">PLAYER SELECT ↗</button>
+        </article>
+
+        <article class="program-card kitchen reveal delay-3" id="kitchen">
+          <span class="card-number">04</span>
+          <div class="program-icon">✶</div>
+          <div class="card-body"><p>FOOD / CULTURE</p><h3>FKU<br>TEST KITCHEN</h3><p>Late-night eats, snack reviews, cooking experiments, local spots, and eventually real chef gear.</p></div>
+          <button class="card-link" type="button" data-toast="Test Kitchen isn't taking reservations. That's kind of the point.">OPEN THE FRIDGE ↗</button>
+        </article>
+      </div>
+    </section>
+
+    <section class="now-playing section-pad section-dark" id="mixtape">
+      <div class="section-heading inverse">
+        <div><p class="section-kicker">FKU RADIO / DEMO</p><h2>NOW<br>PLAYING.</h2></div>
+        <p>Prototype track cards showing how Wayne's music can become part of the brand instead of a separate side project.</p>
+      </div>
+
+      <div class="track-list">
+        <button class="track reveal" type="button" data-track="01" aria-label="Play demo track Late Fee">
+          <span class="track-index">01</span><span class="track-play">▶</span><strong>LATE FEE</strong><span>WAYNE / FKU RADIO</span><time>01:42</time>
+        </button>
+        <button class="track reveal delay-1" type="button" data-track="02" aria-label="Play demo track Continue">
+          <span class="track-index">02</span><span class="track-play">▶</span><strong>CONTINUE?</strong><span>WAYNE / FKU ARCADE</span><time>02:08</time>
+        </button>
+        <button class="track reveal delay-2" type="button" data-track="03" aria-label="Play demo track Drive Thru">
+          <span class="track-index">03</span><span class="track-play">▶</span><strong>DRIVE THRU AT 1:13</strong><span>WAYNE / AFTER HOURS</span><time>01:13</time>
+        </button>
+      </div>
+      <div class="fake-player" aria-live="polite"><span class="equalizer"><i></i><i></i><i></i><i></i></span><strong id="player-title">NO SIGNAL</strong><div class="player-line"><span id="player-progress"></span></div><span id="player-time">00:00</span></div>
+    </section>
+
+    <section class="clips section-pad">
+      <div class="section-heading">
+        <div><p class="section-kicker">CONTENT ENGINE</p><h2>ONE NIGHT.<br>TWELVE CLIPS.</h2></div>
+        <p>The brand grows through entertaining content first. Merch becomes the artifact people take home from it.</p>
+      </div>
+      <div class="clip-grid">
+        <article class="clip-card clip-big reveal"><div class="clip-screen"><span class="play-button">▶</span><small>AFTER HOURS / EP. 001</small><strong>WAYNE HAS 60 SECONDS<br>TO RAP ABOUT RAMEN</strong></div><div class="clip-meta"><span>FKU AFTER HOURS</span><span>00:58</span></div></article>
+        <article class="clip-card reveal delay-1"><div class="clip-screen arcade-screen"><span class="play-button">▶</span><small>ARCADE</small><strong>THIS BOSS IS<br>PERSONALLY OFFENSIVE</strong></div><div class="clip-meta"><span>FKU ARCADE</span><span>01:21</span></div></article>
+        <article class="clip-card reveal delay-2"><div class="clip-screen kitchen-screen"><span class="play-button">▶</span><small>TEST KITCHEN</small><strong>GAS STATION<br>TIER LIST</strong></div><div class="clip-meta"><span>FKU TEST KITCHEN</span><span>00:44</span></div></article>
+      </div>
+    </section>
+
+    <section class="drops section-pad" id="drops">
+      <div class="section-heading">
+        <div><p class="section-kicker">FKU GOODS</p><h2>WEAR THE<br>EPISODE.</h2></div>
+        <p>Every drop should connect to something people watched, heard, argued about, or were there for.</p>
+      </div>
+
+      <div class="drop-grid">
+        <article class="drop-card core reveal">
+          <div class="drop-image"><img src="assets/core-socks.png" alt="FKU core socks product concept" loading="lazy"></div>
+          <div class="drop-info"><span>CORE / 000</span><h3>FOUNDING MEMBER</h3><p>The permanent uniform. Black, white, simple, recognizable.</p><button type="button" data-toast="Drop alerts are demo-only in this prototype.">JOIN DROP LIST →</button></div>
+        </article>
+        <article class="drop-card reveal delay-1">
+          <div class="drop-image"><img src="assets/after-hours.png" alt="Vaporwave FKU After Hours concept" loading="lazy"></div>
+          <div class="drop-info"><span>AFTER HOURS / 001</span><h3>NEON HUNGER</h3><p>A vaporwave capsule tied to the late-night show.</p><button type="button" data-toast="Neon Hunger is a concept drop, not yet for sale.">COMING SOON</button></div>
+        </article>
+        <article class="drop-card reveal delay-2">
+          <div class="drop-image"><img src="assets/saturday-morning.png" alt="90s cartoon inspired FKU concept" loading="lazy"></div>
+          <div class="drop-info"><span>ARCADE / 002</span><h3>SATURDAY MORNING</h3><p>Original 90s-cartoon energy for anime, games, cereal, and bad decisions.</p><button type="button" data-toast="Saturday Morning is a concept drop, not yet for sale.">COMING SOON</button></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="member-section section-pad section-dark" id="join">
+      <div class="membership-card reveal">
+        <div class="member-badge"><span>FKU</span><small>FOUNDING MEMBER</small><b>#000001</b></div>
+        <div class="membership-copy">
+          <p class="section-kicker">JOIN FAT KIDS UNITED</p>
+          <h2>DON'T FOLLOW.<br><span>JOIN.</span></h2>
+          <p>Drop alerts, stream announcements, new tracks, voting on stupid arguments, and first access to whatever FKU turns into next.</p>
+          <form class="join-form" id="join-form">
+            <label class="sr-only" for="email">Email address</label>
+            <input id="email" type="email" placeholder="YOUR@EMAIL.COM" autocomplete="email" required>
+            <button type="submit">BECOME A MEMBER →</button>
+          </form>
+          <p class="form-note" id="form-note">Prototype form — nothing gets sent anywhere.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="manifesto-final section-pad">
+      <p class="section-kicker">THE POINT</p>
+      <blockquote class="reveal">“THE MERCH ISN'T THE BRAND.<br><span>THE PEOPLE, CONTENT, AND CULTURE ARE.</span>”</blockquote>
+      <div class="final-grid">
+        <p>Build something worth belonging to. Then the logo means something.</p>
+        <a class="button button-dark" href="#top">BACK TO TOP ↑</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-brand"><span>FKU</span><small>FAT KIDS UNITED © 2026</small></div>
+    <div class="footer-links"><a href="#watch">AFTER HOURS</a><a href="#radio">RADIO</a><a href="#arcade">ARCADE</a><a href="#kitchen">TEST KITCHEN</a></div>
+    <p>PROTOTYPE / NOT YET A REAL COMMERCE SITE</p>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+</html>
